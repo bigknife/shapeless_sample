@@ -1,7 +1,11 @@
 
 scalaVersion in ThisBuild := "2.11.8"
+// typelevel scala
+//organization in ThisBuild := "com.chuusai"
+//crossScalaVersions in ThisBuild := Seq("2.10.6", "2.11.11", "2.12.3", "2.13.0-M2")
+
 scalacOptions in ThisBuild ++= Seq(
-  "-target:jvm-1.7",
+  "-target:jvm-1.8",
   "-encoding",
   "UTF-8",
   "-unchecked",

@@ -1,4 +1,7 @@
+package p1
 import shapeless._
+
+// type class
 
 trait CsvEncoder[A] {
   def encode(value: A): List[String]
